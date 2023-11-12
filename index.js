@@ -1,13 +1,13 @@
-const contentLetterSrart_actived = "Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé." //Lời mở đầu cho bức thư
-const mainContentLetter = "Gửi lời nhắn nhủ đến người bạn bạn yêu thương." //Nội dung của bức thư
+const contentLetterSrart_actived = "Happy Birthday Sếp 🍀" //Lời mở đầu cho bức thư
+const mainContentLetter = "Hai em chúc thuyền trưởng có một ngày sinh nhật tràn đầy niềm vui, hạnh phúc và nhiều thành công mới. Mong rằng năm mới sẽ đem đến cho chị nhiều thành tựu mới và những trải nghiệm tuyệt vời 🎂💐" //
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
-imgStart.src = "./img/cute-young-boy-kid-wearing-vest-and-hat-free-png.png";
+imgStart.src = "./img/z4874500586021_68f39d9dd42a9a1be599767138d1fbe1-removebg-preview.png";
 
 // Gắn 1 link ảnh bất kì
 let imgLetter = document.querySelector(".img");
-imgLetter.src = "./img/b4bbdb54b7152338d7143cb444a77f09.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
+imgLetter.src = "./img/z4863085255831_8d083983575fb36b7a2a2d7cbc10342a.jpg"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
 
 const splitContentLetterSrart_actived = contentLetterSrart_actived.split("");
 
